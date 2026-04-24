@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: rgb(41, 41, 40);
+  /* background: url("https://mcdn.wallpapersafari.com/medium/33/34/kGcLz7.jpg"); */
+  width: 100%;
+  background-size: cover;
+  /* text-align: center; */
+}
+
+
