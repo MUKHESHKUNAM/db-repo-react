@@ -1,4 +1,4 @@
-import "../charactercardcomponent/charactercard.css";
+import "./charactercard.css";
 export const Charcards = ({ data }) => {
   const { image, name, ki, maxKi, race } = data;
   return (

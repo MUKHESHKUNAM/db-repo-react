@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { getcharacters } from "../../service/getcharacter";
-import { Charcards } from "../charactercardcomponent/Charactercard";
+import { Charcards } from "../Charactercardcomponent/Charactercard";
 import "./Eachchar.css";
+
 export const Chardetails = ({ data }) => {
   const [characters, setcharacters] = useState(null);
 
@@ -11,8 +12,8 @@ export const Chardetails = ({ data }) => {
       setcharacters(chardata);
     };
     fetcheddata();
-  }, []);
-  console.log(characters);
+  });
+  // console.log(characters);
   return (
     <>
       <div className="box">

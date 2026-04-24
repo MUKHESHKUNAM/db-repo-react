@@ -1,7 +1,10 @@
-import "../pages/Home.page.css";
+import { Chardetails } from "../components/Eachcharacterdetails/Eachchar";
+import { Navbar } from "../components/Navcomponent/Navbar";
+import "./Home.page.css";
 export const Home = () => {
   return (
     <>
+      <Navbar />
       <div>
         <div id="top">
           <img
@@ -13,6 +16,7 @@ export const Home = () => {
         <br />
         <br />
       </div>
+      <Chardetails />
     </>
   );
 };
