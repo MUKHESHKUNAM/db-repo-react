@@ -1,0 +1,26 @@
+.charbox {
+  height: 400px;
+  width: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.planetbox {
+  height: 400px;
+  width: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.charbox img {
+  height: 350px;
+  width: 150px;
+}
+.planetbox img {
+  height: 350px;
+  width: 250px;
+}
